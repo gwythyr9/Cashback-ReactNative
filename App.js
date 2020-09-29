@@ -30,7 +30,6 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <Tab.Navigator
         initialRouteName="Stores"
-        
       >
         <Tab.Screen name="Stores" component={Stores} />
         <Tab.Screen name="Settings" component={Settings} />

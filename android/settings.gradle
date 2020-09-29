@@ -1,3 +1,6 @@
 rootProject.name = 'Cashback'
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
+
+include ':ae-cashback-library'
+project(':ae-cashback-library').projectDir = new File(rootProject.projectDir, '../node_modules/ae-cashback-library/android')

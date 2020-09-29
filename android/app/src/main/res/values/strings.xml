@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Cashback</string>
+    <!--Required strings-->
+    <string name="ae_settings_label">Cashback</string>
+    <string name="ae_settings_description">Description in accessibility service</string>
+    
+    <!--Optional strings-->
+    <string name="ae_cashback_apply_button_text">Activate</string>
+    <string name="ae_cashback_icon_exit_text">Exit</string>
+    <string name="ae_cashback_success_bubble_text">Cashback Activated</string>
+    <string name="ae_cashback_progress_start">Applying Cashback…</string>
+    <string name="ae_cashback_progress_success">Cashback activated!</string>
+    <string name="ae_cashback_progress_fail">Cashback not activated:(</string>
 </resources>
